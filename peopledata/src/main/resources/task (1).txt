@@ -1,0 +1,19 @@
+[18:34:55] deepali singh: This exercise involve following things :
+1) Read the above xml, parse using any of your parsing technology and store it in any of the place (DB,CVS,collection object) specified in property file. If any other option is taken throw custom exception. Use concept of Factory Design Pattern.
+
+Note : here collection object is option if you find difficulty in handling data with collection object just do with DB and CVS only.
+
+2) Display all data store in (DB,CSV,colletion Object) on console
+
+3) Display data of spacific person on console whose pan is matching 
+
+Note : Take data required for connection to db from property file (don't  hardcode). Use Collection object to store data of above xml file and make sure data must be available in collection when you make next request to display the data (decide whether to make collection object as instance variable or static).
+
+
+Tables / CVS / Collection
+
+Person -> pan (primary key) ,firstname, lastname,age,phone, nationality
+Address -> street,city,PIN,State,Country, pan (forgein key)
+Company -> name,location,department,designation,CTC, pan (forgien key) 
+LanguageKnown -> pan (forgien key), language
+[18:35:08] deepali singh: If you have any doubt , let me know

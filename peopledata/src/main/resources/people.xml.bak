@@ -1,0 +1,152 @@
+<people>
+		  <person pan='cdw345dgd' nationality='Indian'>
+		  <firstName> deepali</firstName>  
+		  <lastName>singh</lastName>
+		  <Age>25</Age>
+		  <phone>1234567899</phone>
+  		 <LanguageKnown>
+				   <Language>Hindi</Language>
+				   <Language>English</Language>
+				   <Language>Bhojpuri</Language>
+  		</LanguageKnown>
+  		<Addresess>
+  			 <Address>
+				    <Street>Kaikondrahalli</Street>
+				    <City>Bangalore</City>
+				    <PIN>4500098</PIN>
+				    <State>Karnataka</State>
+				    <Country>India</Country>
+   			</Address>
+   
+   			<Address>
+					    <Street>Rampur</Street>
+					    <City>Varanasi</City>
+					    <PIN>2477714</PIN>
+					    <State>Karnataka</State>
+					    <Country>India</Country>
+   		</Address>
+  </Addresess>
+  <Companies>
+  		 <CompanyInfo>
+		    <Name>ArenaSoft</Name>
+		    <Location>chennai</Location>
+		    <Department>Software</Department>
+		    <Degisgnation>Software Engineer</Degisgnation>
+		    <CTC>3.2</CTC>
+   		</CompanyInfo>
+  		 <CompanyInfo>
+			    <Name>Bizruntime</Name>
+			    <Location>Bangalore</Location>
+			    <Department>Software</Department>
+			    <Degisgnation>Senior Software Engineer</Degisgnation>
+			    <CTC>4.8</CTC>
+   		  </CompanyInfo>
+  </Companies>
+ </person>
+ 
+ <person pan='cdw555dgd' nationality='Germany'>
+	  <firstName>joydeep</firstName>
+	  <lastName>paul</lastName>
+	  <Age>25</Age>
+	  <phone>1234567898</phone>
+  	  <LanguageKnown>
+		   <Language>Hindi</Language>
+		   <Language>English</Language>
+		   <Language>German</Language>
+	  </LanguageKnown>
+  <Addresess>
+   		<Address>
+		    <Street>Kaikondrahalli</Street>
+		    <City>Bangalore</City>
+		    <PIN>560098</PIN>
+		    <State>Karnataka</State>
+		    <Country>India</Country>
+   		 </Address>   
+  </Addresess>
+  <Companies>   
+   <CompanyInfo>
+	    <Name>Bizruntime</Name>
+	    <Location>Bangalore</Location>
+	    <Department>Software</Department>
+	    <Degisgnation>Software Engineer</Degisgnation>
+	    <CTC>3.2</CTC>
+   </CompanyInfo>
+  </Companies>
+ </person>
+ <person pan='cdw555poi' nationality='France'>
+		  <firstName>Vijay</firstName>
+		  <lastName>Maddi</lastName>
+		  <Age>25</Age>
+		  <phone>1234347898</phone>
+  <LanguageKnown>
+	   <Language>Hindi</Language>
+	   <Language>English</Language>
+	   <Language>French</Language>
+  </LanguageKnown>
+  <Addresess>
+   <Address>
+		    <Street>Kaikondrahalli</Street>
+		    <City>Bangalore</City>
+		    <PIN>560098</PIN>
+		    <State>Karnataka</State>
+		    <Country>India</Country>
+   </Address>
+   <Address>
+		    <Street>ST. johns</Street>
+		    <City>Paris</City>
+		    <PIN>560098</PIN>
+		    <Country>France</Country>
+   </Address>   
+  </Addresess>
+  <Companies>   
+   <CompanyInfo>
+		    <Name>Bizruntime</Name>
+		    <Location>Bangalore</Location>
+		    <Department>Software</Department>
+		    <Degisgnation>Software Engineer</Degisgnation>
+		    <CTC>3.2</CTC>
+   </CompanyInfo>
+  </Companies>
+ </person>
+		 <person pan='cdw555poi' nationality='US'>
+		  <firstName>Soumya</firstName>
+		  <lastName>Jenna</lastName>
+		  <Age>25</Age>
+		  <phone>4324347898</phone>
+  <LanguageKnown>
+	   <Language>Hindi</Language>
+	   <Language>English</Language>
+	   <Language>French</Language>
+  </LanguageKnown>
+  <Addresess>
+   <Address>
+    <Street>Kaikondrahalli</Street>
+    <City>Bangalore</City>
+    <PIN>560098</PIN>
+    <State>Karnataka</State>
+    <Country>India</Country>
+   </Address>
+   <Address>
+    <Street>ST. johns</Street>
+    <City>Paris</City>
+    <PIN>560098</PIN>
+    <Country>France</Country>
+   </Address> 
+   <Address>
+    <Street>ETR Brurg</Street>
+    <City>Canada</City>
+    <PIN>560045</PIN>
+    <Country>US</Country>
+   </Address>    
+  </Addresess>
+  <Companies>   
+   <CompanyInfo>
+    <Name>Boston</Name>
+    <Location>Canada</Location>
+    <Department>Software</Department>
+    <Degisgnation>Software Engineer</Degisgnation>
+    <CTC>3.2</CTC>
+   </CompanyInfo>
+  </Companies>
+ </person>
+</people>
