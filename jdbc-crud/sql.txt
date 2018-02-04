@@ -1,0 +1,4 @@
+create table customer(id int unique , 
+											name varchar(90),
+											age int)
+										  
