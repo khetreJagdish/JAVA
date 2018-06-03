@@ -1,0 +1,25 @@
+package langpackage;
+
+import java.io.IOException;
+
+public class LaunchingExternalApps
+{
+    public static void main(String[] args)
+    {
+        Runtime runtime = Runtime.getRuntime();     //getting Runtime object
+        
+        for(int i = 0; i<2; i++)
+        {
+        String[] s = new String[] {"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe", "G:\\video\\ENGISH\\Luis Fonsi - Despacito ft. Daddy Yankee.mp4"};
+        
+        try
+        {
+            runtime.exec(s);     
+        }
+        catch (IOException e)
+        {
+            e.printStackTrace();
+        }
+        }
+    }
+}

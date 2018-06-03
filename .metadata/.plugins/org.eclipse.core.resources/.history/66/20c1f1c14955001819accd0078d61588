@@ -1,0 +1,27 @@
+package javarevisited;
+
+public class DaemonThreadExample {
+
+	public static void main(String[] args) {
+			
+		Thread thread = new Thread(new Runnable() {
+			
+			@Override
+			public void run() {
+				try {
+				while(true) {
+					System.out.println("Daemon Thread is Running");
+				}
+				}
+				catch (Exception e) {
+					
+				}
+				finally {
+					System.out.println("Daemon Thread existing");
+				}
+				
+			}
+		});
+	}
+
+}

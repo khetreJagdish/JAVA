@@ -1,0 +1,10 @@
+package javarevisited;
+
+public class MultipleThreadDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

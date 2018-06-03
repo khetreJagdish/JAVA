@@ -1,0 +1,28 @@
+package com.java.threadsynch;
+
+public class SynchronizationDemo {
+
+	public static void main(String[] args) {
+		
+		Display display1 = new Display();
+	/*Display display2 = new Display();
+	Display display3 = new Display();
+	Display display4 = new Display();*/
+		
+		MyThread myThread1 = new MyThread(display1, "Dhoni");		
+		
+		/*MyThread myThread2 = new MyThread(display2, "Yuvraj");
+		
+		MyThread myThread3 = new MyThread(display3, "Kohli");
+		
+		MyThread myThread4 = new MyThread(display4, "Ashwin");
+		myThread1.start();
+		
+		myThread2.start();*/
+		/*
+		myThread3.start();
+		myThread4.start();*/
+		
+	}
+
+}

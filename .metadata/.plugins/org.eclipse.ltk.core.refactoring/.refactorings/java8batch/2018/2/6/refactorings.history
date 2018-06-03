@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.scoopen.java8.java8batch.AppTest.java&apos; to &apos;ApplicationDemo.java&apos;&#x0D;&#x0A;- Original project: &apos;java8batch&apos;&#x0D;&#x0A;- Original element: &apos;com.scoopen.java8.java8batch.AppTest.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.scoopen.java8.java8batch.ApplicationDemo.java&apos;" description="Rename compilation unit &apos;AppTest.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/test\/java&lt;com.scoopen.java8.java8batch{AppTest.java" name="ApplicationDemo.java" references="false" stamp="1518261982926" version="1.0"/>
+</session>

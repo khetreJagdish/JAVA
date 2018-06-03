@@ -1,0 +1,63 @@
+package com.java.threadsynch;
+
+public class Display {
+		
+	/*public  static synchronized void wish(Display d , String name){
+		
+		for (int i = 0; i < 3; i++) {
+			
+			System.out.print("Good morning : ");
+			
+				System.out.println(name);
+				
+		}
+		
+	}
+	
+	public  static synchronized void wish3(Display d , String name){
+		
+		for (int i = 0; i < 3; i++) {
+			
+			System.out.print("Good morning : ");
+			
+				System.out.println(name);
+				
+		}
+		
+		
+	}*/
+	
+	/*public  static synchronized void wish1(Display d , String name){
+		
+		for (int i = 0; i < 3; i++) {
+			
+			System.out.print("Good morning : ");
+			
+				System.out.println(name);
+				
+		}
+		
+	}
+
+	public void wish2(Display display1, String name) {
+		
+		for (int i = 0; i <3; i++) {
+			System.out.print("Good Morning : ");
+			
+		
+			System.out.println(name);
+		}
+		
+	}
+*/	
+	
+	
+public void wish2(Display display1, String name) {
+		
+		for (int i = 0; i <3; i++) {
+			System.out.print("Good Morning : ");
+			
+		
+			System.out.println(name);
+		}
+}

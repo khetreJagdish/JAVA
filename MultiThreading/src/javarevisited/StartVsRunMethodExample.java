@@ -1,0 +1,28 @@
+package javarevisited;
+
+public class StartVsRunMethodExample {
+
+	public static void main(String[] args) {
+		Thread thread1 = new Thread(new Task("start"));
+		Thread thread2 = new Thread(new Task("run"));
+		thread1.start();
+		thread2.run();
+		System.out.println("Main Thread Priority : "+Thread.currentThread().getPriority());
+	}
+
+	
+	private static class Task implements Runnable{
+
+		private String caller;
+		public Task(String caller) {
+			this.caller = caller;
+		}
+		@Override
+		public void run() {
+			
+			System.out.println("Caller : " + caller + " and Code on this thread is executed by : " + Thread.currentThread().getName());
+			System.out.println("Main Thread Priority : "+Thread.currentThread().getPriority());
+		}
+		
+	}
+}

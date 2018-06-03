@@ -1,0 +1,5 @@
+package com.scp.singleton;
+
+public class LazyInitializedSingleton {
+
+}

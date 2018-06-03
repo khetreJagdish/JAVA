@@ -1,0 +1,23 @@
+package com.java.advancedmultithreading;
+
+public class WaitMethodDemo {
+
+	public static void main(String[] args) {
+		
+		Message message = new Message("Process it");
+		
+		Waiter waiter = new Waiter(message);
+		new Thread(waiter, "waiter").start();
+		
+		Waiter waiter2 = new Waiter(message);
+		new Thread(waiter2, "waiter2").start();
+		
+		
+		
+		System.out.println("All threads started");  //1
+		Notifier notifier = new Notifier(message);
+		new Thread(notifier, "notifier").start();
+		
+	}
+
+}

@@ -1,0 +1,32 @@
+package com.java.threadsynch;
+
+public class SharedQueue {
+	
+	String name;
+
+	public SharedQueue(String name) {
+		super();
+		this.name = name;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public void display(String name) {
+		
+		System.out.println(Thread.currentThread().getName()+" "  + name);
+		try {
+			Thread.sleep(2000);
+		} catch (Exception e) {
+
+		}
+		System.out.println(Thread.currentThread().getName()+" "  + name);
+		
+	}
+
+}

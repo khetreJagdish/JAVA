@@ -1,0 +1,40 @@
+package langpackage;
+
+import java.io.File;
+import java.io.FilenameFilter;
+import java.io.IOException;
+import java.util.Arrays;
+
+public class LaunchingExternalApps
+{
+    public static void main(String[] args)
+    {
+        Runtime runtime = Runtime.getRuntime();     //getting Runtime object
+        
+        File file = new File("/path/to/directory");
+        String[] directories = file.list(new FilenameFilter() {
+			
+			@Override
+			public boolean accept(File dir, String name) {
+				
+				return false;
+			}
+        });
+		
+        System.out.println(Arrays.toString(directories));
+        
+        
+        
+        
+        String[] s = new String[] {"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe", "G:\\video\\ENGISH\\Luis Fonsi - Despacito ft. Daddy Yankee.mp4"};
+ 
+        try
+        {
+            runtime.exec(s);     
+        }
+        catch (IOException e)
+        {
+            e.printStackTrace();
+        }
+    }
+}

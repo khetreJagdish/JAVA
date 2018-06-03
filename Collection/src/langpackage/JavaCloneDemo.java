@@ -1,0 +1,68 @@
+package langpackage;
+class JavaCloneDemo 
+{
+	public static void main(String[] args) throws CloneNotSupportedException 
+	{
+		/*
+		int[] intArray = {1,5,8,7};
+
+		int[] cloneArray = intArray.clone();
+		
+		System.out.println(cloneArray == intArray);
+		for(int i = 0; i<cloneArray.length;i++)
+		{
+			System.out.println(i + " th Element is " + cloneArray[i]);
+		}
+		*/
+		
+		/**
+
+			Shallow Copy 
+
+		**/
+
+		/*
+		Employee emp1 =  new Employee();
+		emp1.id = 2;
+		emp1.name = "Jagdish";
+		System.out.println(emp1);
+		Employee emp2 =  emp1;
+		System.out.println(emp2);
+		emp2.id = 10;
+		System.out.println("emp1 : "+emp1);
+		System.out.println("after changing value emp2 : " + emp2);
+		*/
+
+		Employee emp1 = new Employee();
+		emp1.id = 5;
+		emp1.name = "Khetre";
+
+		System.out.println("emp 1: " + emp1);
+		
+		Employee emp2 =(Employee) emp1.clone();
+		System.out.println("emp2 : "+emp2);
+		
+		emp2.id=58;
+		emp2.name = "Jagdish";
+		System.out.println("---------------------------'");
+		System.out.println("emp 1 : " + emp1);
+		System.out.println("emp 2: " + emp2);
+	}
+}
+
+class Employee implements Cloneable
+{
+	String name;
+	int id;
+
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+	
+		return super.clone();
+	}
+	
+	public String toString()
+	{
+		return "Employee Name is : " + name + " Id is : " + id;
+	}
+}

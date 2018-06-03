@@ -1,0 +1,18 @@
+import java.util.HashMap;
+
+public class HashcodeDemo {
+
+	public static void main(String[] args) {
+		
+		Integer integer = new Integer(10);
+		String string = new String("Hello");
+		Double double1 = new Double(10);
+		HashMap hashMap = new HashMap(-5);
+		String obj7 = new String("19999999999999999");
+	      System.out.println("\nhashCode can be negative " + obj7.hashCode());
+		
+		System.out.println(integer.hashCode());
+		System.out.println(string.hashCode());
+		System.out.println(double1.hashCode());
+	}
+}

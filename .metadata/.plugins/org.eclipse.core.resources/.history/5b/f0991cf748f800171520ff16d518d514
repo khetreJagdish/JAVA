@@ -1,0 +1,22 @@
+package langpackage;
+
+public class ReverseString {
+		
+	public static void main(String[] args) {
+		
+		String name = "Hello this is Java";
+		reverseString(name);
+		
+	}
+
+	private static void reverseString(String name) {
+		
+		String reverse ="";
+		
+		for (int i = name.length()-1; i >=0; i--) {
+			
+			reverse = reverse + name.charAt(i);
+		}
+		
+	}
+}

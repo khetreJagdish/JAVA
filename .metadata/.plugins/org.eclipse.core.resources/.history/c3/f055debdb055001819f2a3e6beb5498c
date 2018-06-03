@@ -1,0 +1,13 @@
+package com.java.threadsynch;
+
+public class SharedQueueCaller extends Thread {
+	
+	public SharedQueueCaller() {
+		
+	}
+	@Override
+	public void run() {
+		
+	}
+
+}

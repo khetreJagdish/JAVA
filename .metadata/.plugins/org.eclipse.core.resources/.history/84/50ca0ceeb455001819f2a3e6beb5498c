@@ -1,0 +1,29 @@
+package com.java.threadsynch;
+
+public class DeadLock extends Thread{
+	
+	
+	@Override
+	public void run() {
+		
+		display();
+	}
+	
+	public void display() {
+		synchronized (String.class) {
+			System.out.println("From String Lock : " + Thread.currentThread().getName());
+			
+			synchronized (Integer.class) {
+				System.out.println("From Integer Lock " + Thread.currentThread().getName());
+			}
+		}
+		
+		synchronized (String.class) {
+			System.out.println("From String Lock " + Thread.currentThread().getName());
+			
+			synchronized (Integer.class) {
+				System.out.println("From Integer Lock " +Thread.currentThread().getName());
+			}
+		}
+	}
+}

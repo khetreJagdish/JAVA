@@ -1,0 +1,22 @@
+package com.java.threadsynch;
+
+public class DeadLock {
+	
+	public void display() {
+		synchronized (String.class) {
+			System.out.println("From String Lock");
+			
+			synchronized (Integer.class) {
+				System.out.println("From Integer Lock");
+			}
+		}
+		
+		synchronized (Integer.class) {
+			System.out.println("From String Lock");
+			
+			synchronized (String.class) {
+				System.out.println("From Integer Lock");
+			}
+		}
+	}
+}

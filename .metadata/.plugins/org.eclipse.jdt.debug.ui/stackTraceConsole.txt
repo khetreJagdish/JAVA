@@ -1,0 +1,19 @@
+class MissingElement
+{
+public static void main(String []args){
+int[] a={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,19,20};
+int i,j,c;
+for(i=1;i<a.length;i++){
+
+if((a[i]-a[i-1])!=1){
+c=a[i+1]-1;
+System.out.println(" Missing element is : "+c);
+
+}
+
+
+}
+}
+}
+
+Read more: http://javarevisited.blogspot.com/2014/11/how-to-find-missing-number-on-integer-array-java.html#ixzz53xW0ScH7

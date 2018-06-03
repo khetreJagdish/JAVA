@@ -1,0 +1,55 @@
+package com.java.yieldjoinsleep;
+
+import java.io.File;
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLConnection;
+
+public class ListAllJavaFiles {
+
+	public static void main(String[] args) {
+		
+		listAllFiles("F:\\STUDY\\BE\\LANGUAGES\\JAVA\\JAVA\\languages");
+	}
+	
+	public static void listAllFiles(String directoryPath) {
+		
+		File directory = new File(directoryPath);
+		
+		//get All the file from the directory
+		File[] files =directory.listFiles();
+		
+		for (File file : files) {
+			if (file.isFile()) {
+				String name =file.getName();
+				String fileType =identifyFileType(name);
+				System.out.println(fileType);
+			}
+		}
+		
+		
+		
+	}
+
+	private static String identifyFileType(String name) {
+		 String fileType = " ";
+		   try
+		   {
+		      final URL url = new URL("file://" + name);
+		      final URLConnection connection = url.openConnection();
+		      fileType = connection.getContentType();
+		   }
+		   catch (MalformedURLException badUrlEx)
+		   {
+		      System.out.println("ERROR: Bad URL - " + badUrlEx);
+		   }
+		   catch (IOException ioEx)
+		   {
+		      System.out.println("Cannot access URLConnection - " + ioEx);
+		   }
+		   return fileType;
+		
+	}
+
+}

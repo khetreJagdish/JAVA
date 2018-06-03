@@ -1,0 +1,10 @@
+package javarevisited;
+
+public class DaemonThreadExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

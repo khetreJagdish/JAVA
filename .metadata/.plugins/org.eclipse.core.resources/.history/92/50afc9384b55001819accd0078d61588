@@ -1,0 +1,33 @@
+package javarevisited;
+
+public class DaemonThreadExample {
+
+	public static void main(String[] args) throws InterruptedException {
+			
+		Thread daemonThread = new Thread(new Runnable() {
+			
+			@Override
+			public void run() {
+				try {
+				while(true) {
+					System.out.println("Daemon Thread is Running");
+				}
+				}
+				catch (Exception e) {
+					
+				}
+				finally {
+					System.out.println("Daemon Thread existing");
+				}
+				
+			}
+		},"Daemon-Thread");
+		
+		daemonThread.start();
+		Thread.sleep(1000);
+		daemonThread.setDaemon(true);
+		
+		
+	}
+
+}

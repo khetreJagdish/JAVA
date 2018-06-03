@@ -1,0 +1,16 @@
+package com.scp.set;
+
+import java.util.HashSet;
+
+public class HashSetDemo {
+
+	public static void main(String[] args) {
+		HashSet<Employee>  hashSet = new HashSet<>();
+		hashSet.add(new Employee(1, "Jagdish", "Pune"));
+		hashSet.add(new Employee(2, "Jagdish", "Pune"));
+		hashSet.add(new Employee(3, "Jagdish", "Pune"));
+		
+		System.out.println(hashSet.size());
+	}
+
+}

@@ -1,0 +1,52 @@
+package javarevisited;
+
+public class MultipleThreadDemo {
+
+	public static void main(String[] args) throws InterruptedException {
+/*		
+		Thread thread1 = new Thread(new Runnable() {
+			
+			@Override
+			public void run() {
+				
+				for(int i=0; i<2;i++) {
+					System.out.println(Thread.currentThread().getName());
+				}
+			}
+		});
+		
+		Thread thread2 = new Thread(new Runnable() {
+			
+			@Override
+			public void run() {
+				for(int i=0; i<3;i++) {
+					System.out.println(Thread.currentThread().getName());
+				}
+			}
+		});
+		
+		thread1.start();
+		Thread.sleep(1000);
+		thread2.start();
+	*/
+		int starttime1 = (int) System.currentTimeMillis();
+		for(int i=0; i<100;i++) {
+			System.out.print(" " +i);
+		}
+		int endtime1 = (int) System.currentTimeMillis();
+	int r =endtime1 - starttime1;
+		System.out.println("Time : " + r);
+		
+		int starttime = (int) System.currentTimeMillis();
+		int[] arr = new int[100];
+		for(int i : arr) {
+			System.out.print(" " +i);
+		}
+		int endtime = (int) System.currentTimeMillis();
+		int r1 =endtime - starttime;
+		System.out.println("Time : " + r1);
+		
+		
+	}
+
+}

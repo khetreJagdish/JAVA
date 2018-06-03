@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ForEachLoopWithMap.java&apos; to &apos;Java8Examples/src/com.scp.lamda&apos;&#x0D;&#x0A;- Original project: &apos;Java8Examples&apos;&#x0D;&#x0A;- Destination element: &apos;Java8Examples/src/com.scp.lamda&apos;&#x0D;&#x0A;- Original element: &apos;com.scp.lamda.ForEachLoopWithMap.java&apos;" description="Copy compilation unit" destination="/src&lt;com.scp.lamda" element1="/src&lt;com.scp.lamda{ForEachLoopWithMap.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1526844560786" units="1" version="1.0"/>
+</session>

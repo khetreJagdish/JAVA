@@ -1,0 +1,16 @@
+package langpackage;
+
+public class ReverseString {
+		
+	public static void main(String[] args) {
+		
+		String name = "Hello this is Java";
+		reverseString();
+		
+	}
+
+	private static void reverseString() {
+		// TODO Auto-generated method stub
+		
+	}
+}

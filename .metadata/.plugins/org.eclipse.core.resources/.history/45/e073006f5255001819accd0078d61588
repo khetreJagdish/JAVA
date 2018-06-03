@@ -1,0 +1,24 @@
+package javarevisited;
+
+public class StartVsRunMethodExample {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+	
+	private static class Task implements Runnable{
+
+		private String caller;
+		public Task(String caller) {
+			this.caller = caller;
+		}
+		@Override
+		public void run() {
+			System.out.println("Caller : " + caller + " and Code on this thread is executed by : " + Thread.currentThread().getName());
+		}
+		
+	}
+}
