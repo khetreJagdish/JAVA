@@ -46,7 +46,7 @@ public class Employee /*implements Comparable<Employee>*/{
 		result = prime * result + ((name == null) ? 0 : name.hashCode());
 		return result;
 	}
-
+	/*
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -69,7 +69,7 @@ public class Employee /*implements Comparable<Employee>*/{
 		} else if (!name.equals(other.name))
 			return false;
 		return true;
-	}
+	}*/
 	
 	/*public int compareTo(Employee employee) {
 		if(this.empId > employee.empId) {

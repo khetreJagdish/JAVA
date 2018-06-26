@@ -82,6 +82,7 @@
 			<item value="com.scoopen.java8"/>
 		</list>
 		<list key="artifactId">
+			<item value="JDBCDemo"/>
 			<item value="TestNg"/>
 			<item value="ReadPropertiesFile"/>
 			<item value="TestNGDemo"/>
