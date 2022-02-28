@@ -27,7 +27,7 @@ public class ComparatorSortingUsingLamda {
 		for (Developer developer : listOfDevelopers) {
 			System.out.println(developer);
 		}*/
-		System.out.println("With Lamda Expresiion...");
+		System.out.println("With Lamda Expresiion...demo");
 		System.out.println("=======================================");
 		System.out.println("Before Sort");
 		for (Developer developer : listOfDevelopers ) {
